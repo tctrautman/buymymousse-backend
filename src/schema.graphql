@@ -1,9 +1,13 @@
+type Dog {
+    name: String!
+}
+
 """ This is a placeholder to get Yoga set up """
 type Mutation {
-    hi: String
+    createDog(name: String!): Dog
 }
 
 """ This is a placeholder to get Yoga set up """
 type Query {
-    hi: String
+    dogs: [Dog]!
 }
