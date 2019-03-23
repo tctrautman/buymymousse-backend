@@ -1,0 +1,9 @@
+""" This is a placeholder to get Yoga set up """
+type Mutation {
+    hi: String
+}
+
+""" This is a placeholder to get Yoga set up """
+type Query {
+    hi: String
+}
